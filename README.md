@@ -12,3 +12,4 @@ To run these, you need:
 * jax
 * numpy
 * matplotlib
+* optax
