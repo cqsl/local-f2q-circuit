@@ -305,7 +305,7 @@ params
 init_circuit = init_circuit_prepper(params, depth, init_idxs)
 
 # time step size
-delta_t = 1e-3
+delta_t = 1e-2
 # number of trotter steps to simulate
 n_trotter = np.arange(0, 20, 1)
 n_trotter

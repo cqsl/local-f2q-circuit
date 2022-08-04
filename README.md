@@ -7,7 +7,7 @@ A detailed discussion of VQE +  time evolution is given in example.py.
 It demonstrates how to construct a valid vacuum and variational state, and how all our circuits maintain the constraints.
 
 To run these, you need:
-* jupytext (to open the example.py as a notebook)
+* jupytext (to open the example vqe_and_tevo.py as a jupyter notebook)
 * pennylane
 * jax
 * numpy
