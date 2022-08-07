@@ -122,17 +122,14 @@ def hv_ansatz_circuit(qubit_grid, params, n_steps=1, parallel=True):
         ):
             time_evo_y(p_wires, a_wires, params[param_counter])
             param_counter += 1
+            time_evo_inter(p_wires, params[param_counter])
+            param_counter += 1
         for p_wires, a_wires in zip(
             get_x_pairs(qubit_grid[0], parallel=parallel),
             get_x_pairs(qubit_grid[1], parallel=parallel),
         ):
             time_evo_x(p_wires, a_wires, params[param_counter])
             param_counter += 1
-
-        for p_wires in get_y_pairs(qubit_grid[0], parallel=parallel):
-            time_evo_inter(p_wires, params[param_counter])
-            param_counter += 1
-        for p_wires in get_x_pairs(qubit_grid[0], parallel=parallel):
             time_evo_inter(p_wires, params[param_counter])
             param_counter += 1
 
