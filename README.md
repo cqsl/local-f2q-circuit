@@ -1,8 +1,9 @@
 # local-f2q-circuit
 
 ## Intro
-Code that implements the circuits of the paper:
-"Quantum circuits for solving local fermion-to-qubit mappings", by Jannes Nys and Giuseppe Carleo (http://arxiv.org/abs/2208.07192)
+Code that implements the circuits of the paper:  
+"Quantum circuits for solving local fermion-to-qubit mappings",  
+by Jannes Nys and Giuseppe Carleo (http://arxiv.org/abs/2208.07192)
 
 ## Code
 A detailed discussion of VQE +  time evolution is given in example.py.
